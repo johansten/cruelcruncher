@@ -14,7 +14,6 @@ extern "C" {
 
 //----------------------------------------------------------------------------//
 
-void johanBWT(const uint8* pInput, uint8* pOutput, uint32* pFirst, const uint32 length);
 void BWT(const uint8* pInput, uint8* pOutput, const uint32 length, uint32* pFirst);
 void iBWT(const uint8* pInput, uint8* pOutput, const uint32 length, const uint32 first);
 
